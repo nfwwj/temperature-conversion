@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5; /* light grey */
+    color: #222; /* dark text for contrast */
+}
+
+
+.container{
+    text-align: center;
+    min-width: 15rem;
+    max-width: 25rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff; /* white card */
+    border-radius: 1rem;
+    
+    
+}
+#textbox{
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    width: 70%;
+   margin: 1rem;
+    font-size: 1rem;
+    
+}
+.input-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row; /* Forces horizontal alignment */
+    align-items: center;  /* Aligns the middle of the text with the middle of the box */
+    text-align: center;
+}   
+
+
+
+button{
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #078ae1; /* blue accent */
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 50%;
+    
+    
+}
+
+button:hover{
+    background-color: #016bb7;
+}
+
+button:active{
+    background-color: #2abc25;
+}
+
+label{
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+input[type="radio"]{
+    margin-right: 0.5rem;
+}
+
+#result + span{
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
